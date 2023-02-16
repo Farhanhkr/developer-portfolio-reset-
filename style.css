@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png),url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+.nav-title{
+    font-weight: 900;
+    font-size: 40px;
+    margin: 50px 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color: orangered;
+}
+.hair-btn, .download-btn{
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    height: 64px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+.header-banner{
+    margin: 0 80px 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;    
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 20px;    
+}
+.banner-discription{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-me-part{
+    text-align: center;
+    margin: 100px 200px;
+    padding: 130px 150px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+.about-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.about-discription{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
