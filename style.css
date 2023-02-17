@@ -39,6 +39,16 @@ nav li{
     font-size: 20px;
     padding: 18px 35px;
 }
+.Contact-btn{
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+    height: 64px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 20px;
+}
 .header-banner{
     margin: 0 80px 0 200px;
     display: flex;
@@ -188,7 +198,7 @@ nav li{
     color: #181818;
     margin-bottom: 30px;
 }
-.Connect-section input,textarea{
+.Connect-section input[type="text"],input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 461px;
