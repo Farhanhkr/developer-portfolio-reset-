@@ -61,9 +61,9 @@ nav li{
 .about-me-part{
     text-align: center;
     margin: 100px 200px;
-    padding: 130px 150px;
     background: #FFF8F3;
     border-radius: 10px;
+    padding: 100px 150px;
 }
 .about-title{
     margin-bottom: 30px;
@@ -74,4 +74,129 @@ nav li{
     color: #757575;
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-title{
+    text-align: center;
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+}
+.about-info-discription{
+    font-weight: 700;
+    font-size: 20px; 
+    color: #474747;
+}
+.What-I-do-section{
+    margin: 100px 200px;
+}
+.What-I-do-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.What-I-do-discription{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    padding: 0 100px 30px 100px;
+}
+.skil-container{
+    display: flex;
+    gap: 24px;
+}
+.skil{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+/*  */
+.resume-section{
+    margin: 100px 200px;
+}
+.resume-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 50px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.education-item, .experience-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.education-title, .experience-title{
+    font-size: 30px;
+    color: #474747;
+    font-weight: 700;
+}
+.education-item-title, .experience-item-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747
+}
+.education-item-sub-title, .experience-item-sub-title{
+    font-weight: 600;
+    font-size: 20px;  
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.education-item-discription, .experience-item-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
+}
+.Connect-section{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.Connect-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.Connect-section input,textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 461px;
+    border-radius: 5px;
+    padding: 18px 30px;
+}
+.Connect-section p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 30px;
 }
